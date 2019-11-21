@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<menu>
+	<lunch cuisine="ITALIAN" lunchid="2">
+		<dessert>
+			<name>chocolate</name>
+			<price>11.1</price>
+		</dessert>
+		<dishes>
+			<name>sup</name>
+			<price>11.1</price>
+		</dishes>
+		<dishes>
+			<name>Salad</name>
+			<price>0.5</price>
+		</dishes>
+	</lunch>
+	<lunch cuisine="ITALIAN" lunchid="2">
+		<dessert>
+			<name>ice cream</name>
+			<price>11.1</price>
+		</dessert>
+		<dishes>
+			<name>pizza</name>
+			<price>11.1</price>
+		</dishes>
+		<dishes>
+			<name>Salad</name>
+			<price>0.5</price>
+		</dishes>
+	</lunch>
+	<lunch cuisine="POLISH" lunchid="1">
+		<dessert>
+			<name>borsch</name>
+			<price>11.1</price>
+		</dessert>
+		<dishes>
+			<name>Salad</name>
+			<price>0.5</price>
+		</dishes>
+	</lunch>
+	<lunch cuisine="MEXICAN" lunchid="0">
+		<dessert>
+			<name>burito</name>
+			<price>11.01</price>
+		</dessert>
+		<dishes>
+			<name>Tsukini</name>
+			<price>88.5</price>
+		</dishes>
+	</lunch>
+	<drink id="1">
+		<name>water</name>
+		<price>18.05</price>
+	</drink>
+	<drink id="3">
+		<name>coffee</name>
+		<price>10</price>
+	</drink>
+</menu>
