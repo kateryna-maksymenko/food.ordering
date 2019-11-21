@@ -1,0 +1,14 @@
+Task1:
+
+select c.name
+from xf.country c, xf.city ci
+where c.countryID = ci.countryID
+group by(c.name)
+having sum(c.population)>400;
+
+Task2:
+
+select c.name
+from xf.country c, xf.city ci
+where c.countryID = ci.countryID
+and ci.cityID not in(select cityID from xf.building);
